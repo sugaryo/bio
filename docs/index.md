@@ -1,4 +1,4 @@
-# bio
+# biography
 
 ## ■基本情報
 
@@ -14,7 +14,7 @@
 |Qiita|[sugaryo@qiita](https://qiita.com/sugaryo)|
 |Zenn|[sugaryo@zenn](https://zenn.dev/sugaryo)|
 
-- Pinned
+- 外部リンク
   - zenn
     - [SpringBootに入門するための助走本（Zenn改訂版）](https://zenn.dev/sugaryo/books/spring-boot-run-up)
   - gist
