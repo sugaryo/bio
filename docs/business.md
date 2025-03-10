@@ -6,34 +6,34 @@
 
 ## ■[2017年12月～現在] 個人事業主
 
-### 2021/04 - 2024/11
+### ⑤ 2021/04 - 2024/11
 
-某物流インフラ系システムの **API連携基盤** の開発案件。
+某物流インフラ系システムの `API連携基盤` の開発案件。
 
 大手SIerの開発にて、初期リリース版をベースにしたエンハンス開発・段階リリースに参画。  
 主に要件定義からフィジビリティ検証、仕様調整・顧客折衝など上流まわりをサポートした。
 
 > **note:**  
 > 
-> いわゆるマルチベンダー体制での開発。
-> - 最終顧客
->   - SIer
+> **（開発体制）**
+> いわゆるマルチベンダー体制での開発体制。
+> - 最終顧客（出資クライアント）
+>   - SIer（元請け）
 >     - 要求整理チーム
 >     - 対外調整チーム
->     - 開発ベンダー
+>     - 開発チーム（マルチベンダー）
 >       - ベンダーＡ
->       - **ベンダーＢ**
+>       - **ベンダーＢ** ※自身の所属
+>         - 管理
+>         - **アーキテクト** ※自身のポジション
+>         - 各開発チーム
+>           - 開発チームリーダー
+>           - 開発チームメンバ
 >     - 運用保守チーム
 > 
+> **（主な役割）**
 > 自身はベンダーＢに所属しつつ、ベンダーＢ内のアーキテクト的な立ち位置を担当。
-> - **ベンダーＢ**
->   - 管理
->   - **アーキテクト**
->   - 各開発チーム
->     - 開発チームリーダー
->     - 開発チームメンバ
-> 
-> 主な担当・役割は以下の通り。
+> ベンダー間やチーム間での仕様調整、検証や共通部品作成、内部向けの説明やサポートなどを実施した。
 > - **要求定義から具体的な要件定義への落とし込み**
 > - **要件から実現方式の検討・フィジビリティ検証**
 > - **システムの基礎設計・プロトタイプ～共通部品の作成**
@@ -44,106 +44,132 @@
 > 
 
 - **主要技術**
-  - Java11/SpringBoot
+  - Java11／SpringBoot
+    - CacheAbstraction
+      - caffeine
+      - memcached
+      - redis
   - PostgreSQL(Aurora)
+    - postgis
+    - shp2pgsql
   - AWS
-    - ECS/Fargate
+    - ECS／Fargate
     - SNS(pub)
     - ElastiCache for Redis
+  - GoogleMaps API
 - **ツール類**
   - STS(spring tool suite)
   - VisualStudioCode
-  - git/GitHub
+  - VCS
+    - git／GitHub
+    - git／Backlog
+    - TortoiseGit
+    - SVN／Backlog
   - Backlog
   - Microsoft Teams
+  - ExcelVBA
 - **その他**
   - A5SQL-mk2
+  - mermaid(VSCode)
 
-### 2020/02 - 2020/09
+### ④ 2020/02 - 2020/09
 
-某国立研究所の **バイオインフォマティクス・メタゲノム系データベース登録検索システム** の構築案件。
+某国立研究所の `バイオインフォマティクス・メタゲノム系データベース登録検索システム` の構築案件。
 
 開発が難航した結果炎上し、バックエンド側のピンチヒッターとして支援。  
-途中、旧担当者が諸事情により不在となったことで急遽開発リーダーに就任。  
-１０月５日のファーストリリース *※* に向けて、約半年遅れの開発をキャッチアップした。
+途中、旧担当者が諸事情により不在となったことから急遽案件を引き継ぎ、ファーストリリースまで面倒を見た。
 
-*※ トーゴーの日と呼ばれる一般公開イベントがあり、エンドがずらせない開発だった。ファーストリリースまでの棚卸し・機能選定から、段階的な改修対応に向けてスケジュール調整や課題管理など全体的な管理を実施。並行してバックエンドの検証・基礎設計・実装を担当した。*
+> **note:**
+> 
+> トーゴーの日と呼ばれる一般公開イベントがあり、エンドがずらせない開発。
+> ファーストリリースまでの棚卸し・機能選定から、段階的な改修対応に向けてスケジュール調整や課題管理など全体的な管理を実施。
+> 並行してバックエンドの検証・基礎設計・実装を担当。
+> 最終的に、半年遅れの開発をキャッチアップした。
 
 - **主要技術**
-  - Java11/SpringBoot
+  - Java11／SpringBoot
   - PostgreSQL
   - Elasticsearch
-  - NextCloud
-  - Docker + docker-compose  
-  *(Singurality + CentOS / スパコンノード)*
   - OpenAM
-  - ExcelVBA
 - **ツール類**
   - STS (spring tool suite)
   - VisualStudioCode
-  - git/GitHub/GitLab
-  - SourceTree
+  - NextCloud
+  - Docker＋docker-compose  
+  *(Singurality＋CentOS／スパコンノード)*
+  - VCS
+    - git／GitHub
+    - git／GitLab
+    - SourceTree
   - Jira
   - Confluence
   - Slack
+  - ExcelVBA
 - **その他**
   - A5SQL-mk2
   - PlantUML
 
-### 2019/09 - 2019/11 (副業)
+### ③ [副業案件] 2019/09 - 2019/11
 
 某スタートアップ企業の **飲食店向けアプリケーション開発** の **バックエンド設計開発支援** を実施。
 
-バックエンド `(Java or Kotlin / Spring)` の技術者不足ということで支援依頼がかかった案件。  
+バックエンド `(Java or Kotlin／Spring)` の技術者不足ということで支援依頼がかかった案件。  
 元々は担当社員のサポート＋レビューを担当していたが、最終的に要件定義・課題管理・検証・基礎設計までサポートした。
 
 - **主要技術**
-  - Java10/SpringBoot
+  - Java10／SpringBoot
   - ~~MySQL~~  
     PostgreSQL
-  - Docker + docker-compose
+  - Giftee API
 - **ツール類**
   - STS (spring tool suite)
-  - git/GitLab
-  - SourceTree
+  - Docker＋docker-compose
+  - VCS
+    - git／GitLab
+    - SourceTree
   - Slack
 - **その他**
-  - Giftee API
   - A5SQL-mk2
 
-### 2018/04 - 2019/10
+### ② 2018/04 - 2019/10
 
-Salesforceを利用した **営業支援用社内システム構築案件** における **補助システム** の開発。
+Salesforceを利用した `営業支援用社内システム構築案件` における `補助システム` の開発。
 
-Salesforceの **パッケージ制約** *(※)* に伴い、メインシステムの構築が難航。  
-このため、メインシステムと連携して制約を回避するための **Javaのサブシステム** を構築することになり、  
-サブシステムの **技術検証** から **基礎設計・製造・リリース** までを一貫して担当。
+メインシステム上に構築困難な機能を、Java／SpringBootのAPIサーバとして構築する計画があり。
+サブシステム側の技術検証・機能設計・実装からリリースまでを実施した。
 
-*※ マルチテナント環境での共有リソース制限のために設けられている、データサイズやコールアウト回数などApex拡張に課せられている実行制限（いわゆるガバナ制限）に伴う、パッケージ利用上の実行時制約。*
-
-ファーストリリース後、サブシステムの評判が良かったため、メインシステムでの実装困難機能などを幾つか代理実装することになった。
-
-- サブシステム改修例
-  - パッケージアドイン製品Zuoraのバグ回避のため、請求機能の一部をサブシステムにて実装。
-  - 関連して、某国オフショアに出していた月末バッチが低品質だったため、サブシステムにて実装。
-  - パッケージで利用していた帳票機能が改修要件を満たせず、サブシステムにて実装。
+> **note:**
+> 
+> **（初期開発）**
+> Salesforceの **パッケージ制約（いわゆるガバナ制限など）** に伴い、メインシステムの構築が難航。
+> Salesforce／APEX上に構築しきれない機能を補助システムとして切り出し、単純なAPI機能として提供することになった。
+> 
+> **（二次開発）**
+> 補助システム側の拡張性の高さから、パッケージ制約に関わらず難易度の高いカスタマイズ機能を提供するサブシステムとして昇格。
+> メインシステムの改修要件の幾つかをサブシステム側で実現することになった。
+> 
+> 補助システム改修例
+> - パッケージアドイン製品Zuoraのバグ回避のため、請求機能の一部をサブシステムにて実装。
+> - 某国オフショアに出していた月末バッチ処理に品質問題があり、サブシステムにて実装。
+> - パッケージで利用していた帳票機能が改修要件を満たせず、サブシステムにて実装。
 
 - **主要技術**
-  - Java9/SpringBoot＋Thymeleaf＋Bootstrap＋jQuery
+  - Java9／SpringBoot＋Thymeleaf＋Bootstrap＋jQuery
   - PostgreSQL
   - POI
   - OpenCSV
   - CAPTCHA, reCAPTCHA
-  - CentOS/whitecloud
+  - CentOS／whitecloud
   - **developer api**
     - Salesforce API
     - Zuora API
-    - LINE Works developer-console/API
-    - GSuite developer-console/API
+    - LINE Works API／developer-console
+    - GSuite API／developer-console
 - **ツール類**
   - STS (spring tool suite)
-  - git/Backlog git hosting
-  - SourceTree
+  - VCS
+    - git／Backlog
+    - SourceTree
   - Slack
   - Backlog
   - PrimeDrive
@@ -151,29 +177,36 @@ Salesforceの **パッケージ制約** *(※)* に伴い、メインシステ�
   - A5SQL-mk2
   - ER-Master
 
-### 2017/12 - 2018/03
+### ① 2017/12 - 2018/03
 
-某企業の **著作権管理系社内システム** の構築案件の開発支援。
+某企業の `著作権管理系社内システム` の構築案件の開発支援。
 
 intramartで構築する社内システムの機能改修、障害対応支援。  
-また、RDSのデータバックアップツール、バックアップリストア手順書の作成などを実施。
+また、RDSのデータバックアップツール、バックアップリストア手順書などを作成。
 
 - **主要技術**
   - intramart
-  - Groovy/Grails
-  - PostgreSQL/AmazonRDS
+  - Groovy／Grails
+  - PostgreSQL／AmazonRDS
   - powershell
 - **ツール類**
   - Eclipse
+  - VCS
+    - git／GitHub
+    - SourceTree
   - Anaconda
 
-**機械学習系ライブラリ** を用いた研究開発の **Windowsデスクトップアプリケーション** の開発。
+機械学習系ライブラリを用いた研究開発の `Windowsデスクトップアプリケーション` の開発。
 
 - **主要技術**
-  - C#/WindowsForm
+  - C#／WindowsForm
   - Python script
+    - TensorFlow
 - **ツール類**
   - VisualStudio
+  - VCS
+    - git／GitHub
+    - SourceTree
 
 --------------------
 
@@ -186,12 +219,14 @@ intramartで構築する社内システムの機能改修、障害対応支援�
 
 - **主要技術**
   - Java8
-  - SQL Server/ManagementStudio
+  - SQL Server／ManagementStudio
   - ベンダ独自フレームワーク
   - jQuery
 - **ツール類**
   - Eclipse
-  - SVN/tortoise svn
+  - VCS
+    - SVN
+    - TortoiseSVN
 
 --------------------
 
@@ -217,7 +252,7 @@ intramartで構築する社内システムの機能改修、障害対応支援�
 共通チームメンバとして参画、後に共通チームリーダー兼アーキテクトを担当。  
 
 - **主要技術**
-  - Java7/JavaEE
+  - Java7／JavaEE
     - JPA(hibernate)
     - JSF(primefaces)
   - OracleDB
@@ -227,7 +262,9 @@ intramartで構築する社内システムの機能改修、障害対応支援�
   - jQuery
 - **ツール類**
   - Eclipse
-  - SVN/tortoise svn
+  - VCS
+    - SVN
+    - TortoiseSVN
 
 ### [2013/10-2014/09] Javaパッケージ研究開発
 
@@ -235,7 +272,7 @@ PowerBuilder製の顧客パッケージ資産を元に、新しく `Java(JavaEE)
 アーキテクトチーム *（２名）* で、要求事項の実装検証や業務実装方針策定、共通部品の作成などを担当。
 
 - **主要技術**
-  - Java7/JavaEE
+  - Java7／JavaEE
     - JPA (hibernate)
     - JSF (primefaces)
   - OracleDB
@@ -243,7 +280,9 @@ PowerBuilder製の顧客パッケージ資産を元に、新しく `Java(JavaEE)
   - jQuery
 - **ツール類**
   - Eclipse
-  - SVN/tortoise svn
+  - VCS
+    - SVN
+    - TortoiseSVN
 
 ### [2013/06-2013/09] 口座振替データ作成ツール改修
 
@@ -268,7 +307,6 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
   - InstallShield
 - **ツール類**
   - VisualStudio
-  - SVN/tortoise svn
   - テスト半自動化
     - VirtualBox
     - C#自作ツール
@@ -276,6 +314,9 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
     - WinMerge
 - **その他**
   - Ngen.exe
+  - VCS
+    - SVN
+    - TortoiseSVN
 
 ### [2013/03-2013/08] 現行システムWeb化
 
@@ -286,13 +327,15 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
 
 - **主要技術**
   - Java7
-  - JSP/taglib
+  - JSP／taglib
   - Oracle
-  - Seasar2/DOMA
+  - Seasar2／DOMA
   - jQuery
 - **ツール類**
   - Eclipse
-  - SVN/tortoise svn
+  - VCS
+    - SVN
+    - TortoiseSVN
 
 --------------------
 
@@ -381,7 +424,7 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
     - 設計書修正
 - **主要技術**
   - C#
-  - SQL Server/ManagementStudio
+  - SQL Server／ManagementStudio
   - 描画系
     - GDI+
     - Direct3D
@@ -389,8 +432,9 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
   - VisualStudio
   - VCS
     - VSS
-    - SVN/tortoise svn
     - TFS
+    - SVN
+    - TortoiseSVN
   - doxygen
   - WinMerge
   - DF
@@ -417,7 +461,7 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
     - 部下・チームメンバの週報対応など
 - **主要技術**
   - C#
-  - SQL Server/ManagementStudio
+  - SQL Server／ManagementStudio
   - 描画系
     - GDI+
 - **ツール類**
@@ -491,7 +535,7 @@ P社系ICカードの残高・収入在庫管理システムの改修案件。
 - **ツール類**
   - VisualStudio
   - VCS
-    - SVN/tortoise svn
+    - SVN／tortoise svn
   - WinMerge
   - DF
 
