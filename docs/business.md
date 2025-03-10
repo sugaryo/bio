@@ -45,19 +45,29 @@
 
 - **主要技術**
   - Java11/SpringBoot
+    - CacheAbstraction
+      - caffeine
+      - memcached
+      - redis
   - PostgreSQL(Aurora)
+    - postgis
+    - shp2pgsql
   - AWS
     - ECS/Fargate
     - SNS(pub)
     - ElastiCache for Redis
+  - GoogleMaps API
 - **ツール類**
   - STS(spring tool suite)
   - VisualStudioCode
   - git/GitHub
   - Backlog
   - Microsoft Teams
+  - ExcelVBA
 - **その他**
+  - TortoiseGit
   - A5SQL-mk2
+  - mermaid(VSCode)
 
 ### 2020/02 - 2020/09
 
