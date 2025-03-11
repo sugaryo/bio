@@ -30,4 +30,4 @@
 ## ■詳細
 
 - [略歴](career.md)
-- [職務経歴](business.md)
+- [職務経歴（過去案件の詳細）](business.md)
