@@ -10,7 +10,7 @@
 |----|----|
 |name|すがりょー `(sugaryo)`|
 |mail|ryo.sugawara.1224@gmail.com|
-|言語|日本語／Java／C#／C++／Python ...|
+|得意言語|日本語／Java／C#|
 |Twitter|[sugaryo1224](https://twitter.com/sugaryo1224)|
 |GitHub|[sugaryo@github](https://github.com/sugaryo)|
 |Qiita|[sugaryo@qiita](https://qiita.com/sugaryo)|
