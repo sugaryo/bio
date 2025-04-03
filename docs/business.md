@@ -68,6 +68,7 @@
     - postgis
     - shp2pgsql
   - AWS
+    - AWS SDK for Java (2.x)
     - ECS／Fargate
     - SNS(pub)
     - ElastiCache for Redis
