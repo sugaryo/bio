@@ -29,41 +29,8 @@
 
 ## ■詳細情報
 
-### 略歴・職務経歴：
+### [略歴：](career.md)
+全期間通しての簡単な略歴、近況。
 
-> **直近案件のサマリ**
-> - `ElastiCache for Redis` を用いたシステムコントロールの基礎検証。
->   - `AWS SDK for Java (2.x)`
->   - `Amazon ElastiCache`
->   - `SpringBoot cache abstraction`
->     - `Redis`
->     - `memcached`
->     - `caffeine`
-> - `SNS Publish` を用いた通知機能群の基礎検証から実装まで。
->   - `AWS SDK for Java (2.x)`
->   - `Amazon SNS`
-> - `PostGIS` を用いた `e-Stat` 公開データ利用の基礎検証と方式設計。
->   - `postgis`
->   - `shp2sql`
->   - `GoogleMapsPlatform API`
-> - `select for update skip locked` イディオムを利用したジョブ管理・時間制御の基礎検証から実装まで。
-> 
-> など、基礎となるフィジビリティ検証・方式設計を行い、業務開発チーム向けの共通部品類の提供などをメインでやってました。
-
-詳細は以下のページを参照のこと。
-
-- [略歴](career.md)
-- [職務経歴（過去案件の詳細）](business.md)
-
-### 近況：
-
-> **いまなにやってんの？**  
-> - 直近最後の案件が３年半と長期案件になった（詳細は職務経歴参照）ので、ちょっと長めの冬休みに突入。
-> - 仕事で触ってたものを調べなおしたり、基礎的なところを学びなおしたり、生成系ＡＩツール触ってみたり好きなことやってます。
->   - Docker
->   - React
->   - GitHub Copilot, CLINE, ClaudeCode ...
->   - SpringBoot 基礎学び直し　など
-> - 趣味のアウトドアや防災備蓄を充実させつつ、健康促進のため運動も再開。
-> - 爆速で確定申告をたおした。
-
+### [職務経歴（過去案件の詳細）：](business.md)
+会社員時代～個人事業主時代、それぞれの業務・案件の詳細情報。
