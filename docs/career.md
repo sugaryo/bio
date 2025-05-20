@@ -74,6 +74,38 @@ Windows開発メインだった１社目を辞め、転職してからJava/Web�
   - **VCS：**  
   `SVN／TortoiseSVN`, `git／GitHub／GitLab／SourceTree／TortoiseGit`
 
+## ■直近案件のサマリ
+
+基礎となるフィジビリティ検証・方式設計を行い、業務開発チーム向けの共通部品類の提供などをメインでやってました。
+
+- `select for update skip locked` イディオムを利用したジョブ管理・時間制御の基礎検証から実装まで。
+- `SNS Publish` を用いた通知機能群の基礎検証から実装まで。
+  - `AWS SDK for Java (2.x)`
+  - `Amazon SNS`
+- `PostGIS` を用いた `e-Stat` 公開データ利用の基礎検証と方式設計。
+  - `postgis`
+  - `shp2sql`
+  - `GoogleMapsPlatform API`
+- `ElastiCache for Redis` を用いたシステムコントロールの基礎検証。
+  - `AWS SDK for Java (2.x)`
+  - `Amazon ElastiCache`
+  - `SpringBoot cache abstraction`
+    - `Redis`
+    - `memcached`
+    - `caffeine`
+
+## ■近況
+
+**いまなにやってんの？**
+
+> - 直近最後の案件が３年半と長期案件になった（詳細は職務経歴参照）ので、ちょっと長めの冬休みに突入。
+> - 仕事で触ってたものを調べなおしたり、基礎的なところを学びなおしたり、生成系ＡＩツール触ってみたり好きなことやってます。
+>   - Docker
+>   - React
+>   - GitHub Copilot, CLINE, ClaudeCode ...
+>   - SpringBoot 基礎学び直し　など
+> - 趣味のアウトドアや防災備蓄を充実させつつ、健康促進のため運動も再開。
+> - 爆速で確定申告をたおした。
 
 -------------------
 
