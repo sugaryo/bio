@@ -8,8 +8,8 @@ Salesforceを利用した `営業支援用社内システム構築案件` にお
 
 ## ■案件概要
 
-メインシステム上に構築困難な機能を、Java／SpringBootのAPIサーバとして構築する計画があり。
-サブシステム側の技術検証・機能設計・実装からリリースまでを実施した。
+メインシステム上（Salesforceカスタマイズ）に構築困難な機能を、補助システム（Java／SpringBoot）に切り出して実装する開発計画。
+本計画における、補助システム側の技術検証・機能設計・実装からリリースまでを担当した。
 
 ### （初期開発）
 
@@ -18,28 +18,34 @@ Salesforce／APEX上に構築しきれない機能を補助システムとして
 
 ### （二次開発）
 
-補助システム側の拡張性の高さから、パッケージ制約に関わらず難易度の高いカスタマイズ機能を提供するサブシステムとして昇格。  
+補助システム側の拡張性の高さから、パッケージ制約に関わらず **難易度の高いカスタマイズ機能** を提供するサブシステムとして昇格。  
 メインシステムの改修要件の幾つかをサブシステム側で実現することになった。  
 
-サブシステム改修例
+**サブシステム改修例**
 - パッケージアドイン製品のバグ回避のため、請求機能の一部をサブシステムにて実装。
 - 某国オフショアに出していた月末バッチ処理に品質問題があり、サブシステムにて実装。
 - パッケージで利用していた帳票機能が改修要件を満たせず、サブシステムにて実装。
 
 ## ■技術属性
 
-- `主要技術`
-  - Java9／SpringBoot＋Thymeleaf＋Bootstrap＋jQuery
-  - PostgreSQL
-  - POI
-  - OpenCSV
-  - CAPTCHA, reCAPTCHA
-  - CentOS／whitecloud
+※開発主要技術のうち、主担当でガッツリ触っていたものは **太字** 。  
+※開発主要技術のうち、選定・検討段階で触っていたが落としたものは **取り消し線** 。
+
+- `開発主要技術`
+  - **Java9／SpringBoot**
+    - **Thymeleaf**
+      - Bootstrap
+      - jQuery
+    - **CAPTCHA, reCAPTCHA**
+  - **PostgreSQL**
+  - **POI**
+  - **OpenCSV**
   - `developer api`
     - Salesforce API
     - Zuora API
     - LINE Works API／developer-console
     - GSuite API／developer-console
+  - CentOS／whitecloud
 - `ツール類`
   - STS (spring tool suite)
   - VCS
@@ -51,3 +57,8 @@ Salesforce／APEX上に構築しきれない機能を補助システムとして
 - `その他`
   - A5SQL-mk2
   - ER-Master
+
+
+--------------------
+
+[職務経歴に戻る](../business.md)
