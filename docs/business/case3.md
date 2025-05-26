@@ -13,11 +13,15 @@
 
 ## ■技術属性
 
-- `主要技術`
-  - Java10／SpringBoot
+※開発主要技術のうち、主担当でガッツリ触っていたものは **太字** 。  
+※開発主要技術のうち、選定・検討段階で触っていたが落としたものは **取り消し線** 。
+
+- `開発主要技術`
+  - ~~Kotlin~~  
+    **Java10／SpringBoot**
   - ~~MySQL~~  
-    PostgreSQL
-  - Giftee API
+    **PostgreSQL**
+  - **Giftee API**
 - `ツール類`
   - STS (spring tool suite)
   - Docker＋docker-compose
@@ -28,3 +32,7 @@
 - `その他`
   - A5SQL-mk2
 
+
+--------------------
+
+[職務経歴に戻る](../business.md)
