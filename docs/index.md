@@ -11,10 +11,6 @@
 |name|すがりょー `(sugaryo)`|
 |mail|ryo.sugawara.1224@gmail.com|
 |得意言語|日本語／Java／C#|
-|Twitter|[sugaryo1224](https://twitter.com/sugaryo1224)|
-|GitHub|[sugaryo@github](https://github.com/sugaryo)|
-|Qiita|[sugaryo@qiita](https://qiita.com/sugaryo)|
-|Zenn|[sugaryo@zenn](https://zenn.dev/sugaryo)|
 |得意|要件定義／紙芝居（資料作成＋説明）／設計矛盾の早期検出|
 |苦手|満員電車／早寝早起き／低気圧|
 
