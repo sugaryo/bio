@@ -15,24 +15,27 @@ RDSのデータバックアップツール、バックアップリストア手�
 
 ## ■技術属性
 
+※開発主要技術のうち、主担当でガッツリ触っていたものは **太字** 。  
+※開発主要技術のうち、選定・検討段階で触っていたが落としたものは **取り消し線** 。
+
 ### （本開発）
 
-- `主要技術`
+- `開発主要技術`
   - intramart
   - Groovy／Grails
-  - PostgreSQL／AmazonRDS
-  - powershell
+  - **PostgreSQL** (AmazonRDS)
+    - **psql**
+  - **powershell**
 - `ツール類`
   - Eclipse
   - VCS
     - git／GitHub
     - SourceTree
-  - Anaconda
 
 ### （アプリ開発）
 
-- `主要技術`
-  - C#／WindowsForm
+- `開発主要技術`
+  - **C#／WindowsForm**
   - Python script
     - TensorFlow
 - `ツール類`
@@ -40,4 +43,5 @@ RDSのデータバックアップツール、バックアップリストア手�
   - VCS
     - git／GitHub
     - SourceTree
+  - Anaconda
 
