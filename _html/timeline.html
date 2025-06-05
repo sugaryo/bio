@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 16px;
             background-color: #f5f5f5;
         }
         
@@ -20,6 +20,8 @@
             overflow: hidden;
         }
         
+        /* major categories */
+        
         .major-category {
             display: flex;
             border-bottom: 2px solid #333;
@@ -30,15 +32,15 @@
         }
         
         .major-category-label {
-            min-width: 100px;
-            padding: 20px 15px;
+            min-width: 80px;
+            padding: 12px 16px;
             font-weight: bold;
             font-size: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
             border-right: 2px solid #333;
-            writing-mode: vertical-rl;
+            writing-mode: vertical-lr;
             text-orientation: mixed;
         }
         
@@ -51,12 +53,14 @@
         }
         
         .major-category-3 .major-category-label {
-            background-color: #ffccff;
+            background-color: #ffffcc;
         }
         
         .major-category-4 .major-category-label {
-            background-color: #ffffcc;
+            background-color: #ffccff;
         }
+        
+        /* middle categories */
         
         .middle-categories {
             flex: 1;
@@ -74,15 +78,13 @@
         }
         
         .middle-category-label {
-            min-width: 200px;
-            max-width: 200px;
-            padding: 12px;
+            min-width: 300px;
+            max-width: 300px;
+            padding: 12px 24px;
             font-weight: bold;
             font-size: 14px;
-            display: flex;
-            align-items: center;
             text-align: left;
-            justify-content: center;
+            align-content: center;
             border-right: 1px solid #333;
             writing-mode: horizontal-tb;
             word-break: break-word;
@@ -98,17 +100,35 @@
         }
         
         .major-category-3 .middle-category-label {
-            background-color: #ffe6ff;
+            background-color: #ffffe6;
         }
         
         .major-category-4 .middle-category-label {
-            background-color: #ffffe6;
+            background-color: #ffe6ff;
         }
+        
+        /* periods */
         
         .periods {
             flex: 1;
             display: flex;
             flex-direction: column;
+        }
+        
+        .major-category-1 .periods {
+            background-color: #f0f8ff;
+        }
+        
+        .major-category-2 .periods {
+            background-color: #f0fff0;
+        }
+        
+        .major-category-3 .periods {
+            background-color: #fffff0;
+        }
+        
+        .major-category-4 .periods {
+            background-color: #fff0ff;
         }
         
         .period {
@@ -120,23 +140,6 @@
         .period:last-child {
             border-bottom: none;
         }
-        
-        .major-category-1 .period {
-            background-color: #f0f8ff;
-        }
-        
-        .major-category-2 .period {
-            background-color: #f0fff0;
-        }
-        
-        .major-category-3 .period {
-            background-color: #fff0ff;
-        }
-        
-        .major-category-4 .period {
-            background-color: #fffff0;
-        }
-        
         
         .period-header {
             font-weight: bold;
