@@ -56,7 +56,7 @@ VirtualBoxで各環境を構築し、UIを通したテストの半自動化を�
 また、一部環境にて潜在不具合による性能劣化が確認されたため、暫定対応策としてngen化を実施。
 
 - `主要技術`
-  - VB .NET
+  - VB.NET
     - Ngen.exe
   - ActiveReport
 - `ツール類`
